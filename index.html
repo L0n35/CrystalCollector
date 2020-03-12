@@ -1,0 +1,54 @@
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+
+    <style>
+      #border {
+        border: 5px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1 class="display-4">Minecraft Ore Game</h1>
+
+    <h4>How to Play</h4>
+    <p>
+      Each ore has a random weight. You have to collect ores and try to get to
+      the goal weight shown below. If you go over the number you loose.
+    </p>
+
+    <h4 id="goal1"></h4>
+
+    <img
+      src="assets/images/diamond.png"
+      height="109"
+      width="108"
+      id="diamond"
+      
+    />
+    <img
+      src="assets/images/emerald.png"
+      height="108"
+      width="108"
+      id="emerald"
+    />
+    <img
+      src="assets/images/yellow_crystal.png"
+      height="108"
+      width="108"
+      id="gold"
+    />
+    <img src="assets/images/Iron.png" height="108" width="108" id="iron" />
+    <br />
+    <h4 id="total"></h4>
+
+    <h4 id="wins"></h4>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/game.js"></script>
+  </body>
+</html>
